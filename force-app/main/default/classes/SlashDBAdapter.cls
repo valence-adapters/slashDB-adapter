@@ -106,7 +106,7 @@ global with sharing class SlashDBAdapter implements valence.SourceAdapterScopeSe
 	// -------------------------------------
 
 	public String getSourceConfigurationLightningComponent(valence.LinkContext context) {
-		return 'c:slashDBSourceConfigurator';
+		return 'c:slashDBAdapterSourceConfigurator';
 	}
 
 	public String getSourceConfigurationStructure(valence.LinkContext context) {
