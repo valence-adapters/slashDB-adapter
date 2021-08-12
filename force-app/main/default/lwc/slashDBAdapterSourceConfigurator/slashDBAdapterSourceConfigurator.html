@@ -1,0 +1,5 @@
+<!-- SlashDB Adapter Source Configurator -->
+<template>
+	<p class="slds-m-vertical_small">Valence prefers to fetch deltas (records that have changed). If there is a field on this table in SlashDB that holds the last modified date or datetime, select it below. Otherwise, select <strong>-- None --</strong> to fetch all records.</p>
+	<lightning-combobox name="deltaField" label="Last Modified Field" value={configuration.deltaField} options={deltaCandidates} placeholder="Which field in SlashDB holds a 'last modified' value?" onchange={fieldSelected}></lightning-combobox>
+</template>

@@ -1,0 +1,6 @@
+.DS_Store
+/.sfdx
+/.idea
+/config
+/slashdb-adapter.iml
+/IlluminatedCloud
